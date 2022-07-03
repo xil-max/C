@@ -2,7 +2,12 @@
 
 int main()
 {
-    printf("Hello World");
+    int x;
+    scanf("%d", &x);
+
+    printf("x=%d\n", x);
+
+    printf("Hello World\n");
 
     return 0;
 }
